@@ -22,11 +22,18 @@ This repository contains automation tests using Playwright. The following instru
      npm --version
      ```
 
-3. **Install Playwright**:
-   - Open your terminal and navigate to your project directory:
+3. **Clone the repository**:
+   - Open your terminal and navigate to the location where you want to clone the repository.
+   - Run the following command:
      ```bash
-     cd C:\Users\sbaligar\Desktop\PlaywrightAutomation
+     git clone https://github.com/sushilbaligar/playwrightautomation.git
      ```
+   - Navigate to the cloned repository:
+     ```bash
+     cd playwrightautomation
+     ```
+
+4. **Install Playwright**:
    - Install Playwright using npm:
      ```bash
      npm init playwright@latest
@@ -37,3 +44,7 @@ This repository contains automation tests using Playwright. The following instru
 1. **Install project dependencies**:
    ```bash
    npm install
+1. **Run the tests**:
+   ```bash
+   npx playwright test
+   
